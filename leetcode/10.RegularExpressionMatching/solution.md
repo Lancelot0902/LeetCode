@@ -12,6 +12,8 @@
 
     * 对于不能使前面相等的只能删掉，dp[i][j] = dp[i][j - 2]
 
+因为如果字符串的前面出现了' * '，要用到前前个元素，所以对于dp行列都要+1
+
 ```
 bool isMatch(std::string s, std::string p)
 {
