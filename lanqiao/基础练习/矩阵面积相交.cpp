@@ -20,8 +20,8 @@ int main(int argc, char **argv)
     if (y3 > y4)
         std::swap(y3, y4);
 
-    if ((x2 < x3) || (x4 < x1) || (y2 < y3) || (y4 < y1))
-        std::cout << 0.00;
+    if ((x2 <= x3) || (x4 <= x1) || (y2 <= y3) || (y4 <= y1))
+        std::cout << "0.00";
     else
     {
         double a[4] = {x1, x2, x3, x4};
