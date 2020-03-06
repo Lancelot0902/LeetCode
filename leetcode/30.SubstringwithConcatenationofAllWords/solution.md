@@ -1,9 +1,8 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <unordered_map>
-#include <algorithm>
+### 30. Substring with Concatenation of All Words
 
+题目比较简单，比较容易想到的就是暴力法，再找一个vector存放查找的结果，如果找到对应的str，就从vector中删除，如果vector为空就说明找到了满足要求的位置
+
+```
 std::vector<int> findSubstring(std::string s, std::vector<std::string> &words)
 {
     if (s.empty() || words.empty())
@@ -29,7 +28,13 @@ std::vector<int> findSubstring(std::string s, std::vector<std::string> &words)
     }
     return ans;
 }
+```
 
+暴力法最后一个测试tle了，想了一下，应该是对tmp的操作耗时长了，如果words有一个string重复了许多次，那么tmp就要对这个string进行重复多次的添加和删除，所以这里需要改进
+
+利用map存储一个string出现的次数
+
+```
 std::vector<int> findSubstring(std::string s, std::vector<std::string> &words)
 {
     if (s.empty() || words.empty())
@@ -58,3 +63,4 @@ std::vector<int> findSubstring(std::string s, std::vector<std::string> &words)
     }
     return ans;
 }
+```
