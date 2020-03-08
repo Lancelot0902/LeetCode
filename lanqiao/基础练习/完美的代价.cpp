@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 
     int end = n - 1;
     int res = 0;
-    int mid = 0;
+    int flag = 0;
 
     for (int i = 0; i < end; ++i)
     {
@@ -22,12 +22,12 @@ int main(int argc, char **argv)
         {
             if (i == j)
             {
-                if (mid == 1 || n % 2 == 0)
+                if (flag == 1 || n % 2 == 0)
                 {
                     std::cout << "Impossible";
                     return 0;
                 }
-                mid = 1;
+                flag = 1;
                 res += n / 2 - i;
             }
             else if (str[i] == str[j])
