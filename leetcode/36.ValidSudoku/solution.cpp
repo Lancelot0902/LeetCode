@@ -15,12 +15,12 @@ bool isValidSudoku(std::vector<std::vector<char>> &board)
     {
         for (int j = 0; j != n; ++j)
         {
-            if (board[i][j] == ' ')
+            if (board[i][j] == '.')
                 continue;
             else
             {
-                std::string r = to_string(i);
-                std::string c = to_string(j);
+                std::string r = std::to_string(i);
+                std::string c = std::to_string(j);
                 std::string row = r + board[i][j];
                 if (std::find(rows.begin(), rows.end(), row) == rows.end())
                     rows.push_back(row);
