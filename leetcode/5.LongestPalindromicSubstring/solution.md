@@ -40,6 +40,16 @@ std::string longestPalindrome(std::string s)
 一个回文串必定是对称的，所以可以从中间向两边扩展，一个串有2n-1个中心，一个字符为中心有n个，两个字符为中心有n-1个
 
 ```
+int expendCenter(int l, int r, std::string s)
+{
+    while (l >= 0 && r < s.size() && s[l] == s[r])
+    {
+        l--;
+        r++;
+    }
+    return r - l - 1;
+}
+
 std::string longestPalindrome(std::string& s)
 {
         int start = 0;

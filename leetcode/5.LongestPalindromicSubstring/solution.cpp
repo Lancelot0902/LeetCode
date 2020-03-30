@@ -2,22 +2,21 @@
 #include <vector>
 #include <string>
 
-/*
 std::string longestPalindrome(std::string s)
 {
     std::vector<std::vector<bool>> dp;
     int max = 1;
     int left = 0;
     dp.resize(s.size());
-    for (int i = 0; i != dp.size();++i)
+    for (int i = 0; i != dp.size(); ++i)
         dp[i].resize(s.size());
-    for (int i = 0; i != dp.size();++i)
+    for (int i = 0; i != dp.size(); ++i)
         dp[i][i] = true;
-    for (int i = 0; i != dp.size();++i)
+    for (int i = 0; i != dp.size(); ++i)
     {
-        for (int j = 0; j != i;++j)
+        for (int j = 0; j != i; ++j)
         {
-            if(s[i] == s[j] && (i-j<3 || dp[j+1][i-1]))
+            if (s[i] == s[j] && (i - j < 3 || dp[j + 1][i - 1]))
             {
                 dp[j][i] = true;
                 max = (i - j + 1) > max ? i - j + 1 : max;
@@ -26,7 +25,7 @@ std::string longestPalindrome(std::string s)
         }
     }
     return s.substr(left, max);
-}*/
+}
 
 int expendCenter(int l, int r, std::string s)
 {
