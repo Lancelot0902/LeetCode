@@ -34,3 +34,5 @@ bool isMatch(std::string s, std::string p)
     return dp[m][n];
 }
 ```
+
+本题需要先初始化dp，因为在后面的循环中涉及到了访问i-1，j-1；
