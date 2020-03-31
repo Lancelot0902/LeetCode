@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-/*double findMedianSortedArrays(std::vector<int> &nums1, std::vector<int> &nums2)
+double findMedianSortedArrays(std::vector<int> &nums1, std::vector<int> &nums2)
 {
     int m = nums1.size();
     int n = nums2.size();
@@ -35,18 +35,4 @@
     {
         return temp[(m + n) / 2];
     }
-}
-*/
-
-double findMedianSortedArrays(std::vector<int> &nums1, std::vector<int> &nums2)
-{
-}
-
-int main(int argc, char **argv)
-{
-    std::vector<int> num1{1, 3};
-    std::vector<int> num2{2};
-    std::cout << findMedianSortedArrays(num1, num2);
-    system("pause");
-    return 0;
 }

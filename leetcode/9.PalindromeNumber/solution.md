@@ -1,5 +1,7 @@
 ### 9.Palindrome Number
 
+没什么算法，从个位开始将每一位提出来再组成一个新的数，判断新旧两数是否相等
+
 ```
 bool isPalindrome(int x)
 {
