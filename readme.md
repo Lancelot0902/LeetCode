@@ -13,3 +13,8 @@
 |[9. Palindrome Number](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/9.PalindromeNumber/solution.md)|Easy|Math|C++|
 |[**10. Regular Expression Matching**](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/10.RegularExpressionMatching/solution.md)|Hard|动态规划 字符串|C++|
 |[11. Container With Most Water](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/11.ContainerWithMostWater/solution.md)|Medium|Two Pointer|C++|
+|[12. Integer to Roman](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/12.IntegerToRoman/solution.md)|Medium|Math|C++|
+|[13. Roman to Integer](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/13.RomanToInteger/solution.md)|Easy|Math|C++|
+|[14. Longest Common Prefix](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/14.LongestCommonPrefix/solution.md)|Easy|String|C++|
+|[**15. 3Sum**](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/15.3Sum/solution.md)|Medium|Two Pointer|C++|
+|[16. 3Sum Closest](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/16.3SumClosest/solution.md)|Medium|Two Pointer|C++|
