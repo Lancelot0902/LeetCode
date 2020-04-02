@@ -1,6 +1,6 @@
 ### 20. Valid Parentheses
 
-很简单的一道对占的应用
+很简单的一道堆栈的应用
 
 ```
 bool isValid(std::string s)

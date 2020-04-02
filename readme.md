@@ -18,3 +18,7 @@
 |[14. Longest Common Prefix](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/14.LongestCommonPrefix/solution.md)|Easy|String|C++|
 |[**15. 3Sum**](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/15.3Sum/solution.md)|Medium|Two Pointer|C++|
 |[16. 3Sum Closest](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/16.3SumClosest/solution.md)|Medium|Two Pointer|C++|
+|[17. Letter Combinations of a Phone Number](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/17.LetterCombination/solution.md)|Medium|Back Track|C++|
+|[18. 4Sum](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/18.4Sum/solution.md)|Medium|Two Pointer|C++|
+|[19. Remove Nth Node From End of List](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/19.RemoveNthNodeFromEndofList/solution.md)|Medium|链表|C++|
+|[20. Valid Parentheses](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/20.ValidParentheses/solution.md)|Easy|Stack|C++|
