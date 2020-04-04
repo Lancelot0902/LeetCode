@@ -22,3 +22,8 @@
 |[18. 4Sum](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/18.4Sum/solution.md)|Medium|Two Pointer|C++|
 |[19. Remove Nth Node From End of List](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/19.RemoveNthNodeFromEndofList/solution.md)|Medium|链表|C++|
 |[20. Valid Parentheses](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/20.ValidParentheses/solution.md)|Easy|Stack|C++|
+|[21. Merge Two Sorted Lists](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/21.MergeTwoSortedLists/solution.md)|Easy|链表|C++|
+|[22. Generate Parentheses](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/22.GenerateParentheses/solution.md)|Easy|回溯|C++|
+|[23. Merge K Sorted Lists](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/23.MergeKSortedLists/solution.md)|Hard|链表|C++|
+|[24. Swap Nodes In Pairs](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/24.SwapNodesinPairs/solution.md)|Medium|链表|C++|
+
