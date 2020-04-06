@@ -26,4 +26,7 @@
 |[22. Generate Parentheses](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/22.GenerateParentheses/solution.md)|Easy|回溯|C++|
 |[23. Merge K Sorted Lists](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/23.MergeKSortedLists/solution.md)|Hard|链表|C++|
 |[24. Swap Nodes In Pairs](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/24.SwapNodesinPairs/solution.md)|Medium|链表|C++|
+|[25. Reverse Nodes in k-Group](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/25.ReverseNodesink-Group/solution.md)|Hard|链表|C++|
+|[26. Remove Duplicates from Sorted Array](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/26.RemoveDuplicatesfromSortedArray/solution.md)|Easy|Math|C++|
+|[27. Remove Element](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/27.RemoveElement/solution.md)|Easy|Math|C++|
 
