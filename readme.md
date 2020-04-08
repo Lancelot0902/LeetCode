@@ -29,4 +29,7 @@
 |[25. Reverse Nodes in k-Group](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/25.ReverseNodesink-Group/solution.md)|Hard|链表|C++|
 |[26. Remove Duplicates from Sorted Array](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/26.RemoveDuplicatesfromSortedArray/solution.md)|Easy|Math|C++|
 |[27. Remove Element](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/27.RemoveElement/solution.md)|Easy|Math|C++|
+|[28. Implement strStr()](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/28.ImplementStr/solution.md)|Easy|String|C++|
+|[29. Divide Two Integers](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/29.DivideTwoInteger/solution.md)|Medium|Math|C++|
+|[30. Substring with Concatenation of All Words](https://github.com/Lancelot0902/LeetCode/blob/master/leetcode/30.SubstringwithConcatenationofAllWords/solution.md)|Hard|String Map|C++|
 
